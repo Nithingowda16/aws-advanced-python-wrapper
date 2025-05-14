@@ -120,3 +120,4 @@ def test_prepare_connect_info(dialect):
 
     result = dialect.prepare_connect_info(host_info, original_props)
     assert result == expected_props
+
